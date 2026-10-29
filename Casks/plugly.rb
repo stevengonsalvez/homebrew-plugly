@@ -19,7 +19,7 @@ cask "plugly" do
   # Homebrew leaves upgrades to it: `brew upgrade` skips the app unless --greedy.
   auto_updates true
   # Electron 38 and later need macOS 12.
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Plugly.app"
   binary "#{appdir}/Plugly.app/Contents/Resources/bin/plugly"
