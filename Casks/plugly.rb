@@ -1,9 +1,9 @@
 cask "plugly" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "07b5c4e286a6b776db3b50b2be05af33d2708455f58dc8d65b0bcebfdac64050",
-         intel: "5c754ea6a27bf664b7760d5cafd089709c67b936498f257ab9b1b3f23033901e"
+  version "1.0.1"
+  sha256 arm:   "a67af3473c707b32febe46ed6c611d618ad7dab1bc9eb18d4620acbb33b02a57",
+         intel: "df50aa965982ce820b566c0cf8627520f3cae72e7157d7ff10dbde293a0dda0c"
 
   url "https://github.com/stevengonsalvez/plugly-releases/releases/download/v#{version}/plugly-macos-#{arch}.dmg"
   name "Plugly"
